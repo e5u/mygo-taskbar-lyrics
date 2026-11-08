@@ -1,0 +1,23 @@
+{
+  "Taskbar Lyrics": "任务栏歌词",
+  "Font": "字体",
+  "An installed font family name, such as 思源宋体, Source Han Serif SC or Segoe UI. Leave blank for the default. The same face is used for lyrics and translation.": "填写 Windows 已安装的字体名称，例如：思源宋体、Source Han Serif SC、宋体或 Segoe UI。留空使用默认字体，主歌词和翻译共用。",
+  "AMLL word timings": "AMLL 真实逐词",
+  "Automatically find the song in AMLL TTML DB and use its real word timings. on by default; off keeps the player's lyrics. Original lyrics remain while searching or when there is no confident match.": "自动在 AMLL TTML 数据库匹配歌曲，使用真实的逐词时间。默认开启；写 off 关闭。搜索中或没有可靠匹配时保留播放器原歌词。",
+  "Size": "字号",
+  "small, default or large, and 小 / 标准 / 大 work too. Sets the font size and how tall the strip is.": "小、标准、大，写 small / default / large 也认。决定字号和这块条的高度。",
+  "Placement": "摆放位置",
+  "left, center or right, and 左 / 中 / 右 work too. left begins at the left edge of the taskbar, in the first stretch that has no icons on it.": "左、中、右，写 left / center / right 也认。左就是贴着任务栏左边开始，落在第一段没有图标的空位上。",
+  "Color": "颜色",
+  "Text color, as #RRGGBB or #AARRGGBB. The translation is drawn in the same color, dimmer.": "留空或是 auto 就跟着任务栏走：深色任务栏用白字，浅色任务栏用近黑色。也可以自己写 #RRGGBB 或 #AARRGGBB。",
+  "Translation": "译文",
+  "Draw a line's translation under it, when there is one. on or off.": "有译文时把它画在那一行下面。写开 / 关（on / off）。",
+  "While paused": "暂停时",
+  "Keep the line on the taskbar while the music is paused. on or off.": "暂停时仍然把那一行留在任务栏上。写开 / 关（on / off）。",
+  "Nudge across": "横向微调",
+  "Moves the line sideways, in pixels. Negative moves it left.": "把歌词左右挪动，按像素算，负数往左。",
+  "Nudge up or down": "纵向微调",
+  "Moves the line down, in pixels. Negative moves it up.": "把歌词上下挪动，按像素算，负数往上。",
+  "Halo strength": "描边光晕强度",
+  "0 to 200 percent. 0 gives a crisp glyph with no halo; 65 is the new, tighter default; 100 is stronger. Restart after changing it.": "0–200。0 是不带光晕的清晰字形，默认 65 使用更贴字的柔和光晕，100 更强。修改后点击“重启任务栏歌词”。"
+}

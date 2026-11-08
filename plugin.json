@@ -1,0 +1,85 @@
+{
+  "id": "taskbar-lyrics",
+  "name": "Taskbar Lyrics",
+  "version": "0.8.2",
+  "main": "index.js",
+  "playback": "stream",
+  "background": true,
+  "permissions": {
+    "process": [
+      "bin/*"
+    ],
+    "network": [
+      "amlldb.bikonoo.com"
+    ]
+  },
+  "settings": [
+    {
+      "key": "amll",
+      "label": "AMLL word timings",
+      "help": "Automatically find the song in AMLL TTML DB and use its real word timings. on by default; off keeps the player's lyrics. Original lyrics remain while searching or when there is no confident match.",
+      "value": "on"
+    },
+    {
+      "key": "fontFamily",
+      "label": "Font",
+      "help": "An installed font family name, such as 思源宋体, Source Han Serif SC or Segoe UI. The same face is used for lyrics and translation.",
+      "value": "Microsoft YaHei UI"
+    },
+    {
+      "key": "preset",
+      "label": "Size",
+      "help": "small, default or large, and 小 / 标准 / 大 work too. Sets the font size and how tall the strip is.",
+      "value": "default"
+    },
+    {
+      "key": "position",
+      "label": "Placement",
+      "help": "left, center or right, and 左 / 中 / 右 work too. left begins at the left edge of the taskbar, in the first stretch that has no icons on it.",
+      "value": "left"
+    },
+    {
+      "key": "color",
+      "label": "Color",
+      "help": "Leave it on auto and the color follows the taskbar: white on a dark bar, near-black on a light one. Or give a color as #RRGGBB or #AARRGGBB.",
+      "value": "auto"
+    },
+    {
+      "key": "halo",
+      "label": "Halo strength",
+      "help": "0 to 200 percent. 0 gives a crisp glyph with no halo; 100 is stronger. Restart after changing it.",
+      "value": "65"
+    },
+    {
+      "key": "showTranslation",
+      "label": "Translation",
+      "help": "Draw a line's translation under it, when there is one. Turn off Next line to use the translation. on or off.",
+      "value": "on"
+    },
+    {
+      "key": "showNext",
+      "label": "Next line",
+      "help": "Show the next lyric line in small text below the current line, instead of its translation. on or off.",
+      "value": "off"
+    },
+    {
+      "key": "showWhenPaused",
+      "label": "While paused",
+      "help": "Keep the line on the taskbar while the music is paused. on or off.",
+      "value": "on"
+    },
+    {
+      "key": "offsetX",
+      "label": "Nudge across",
+      "help": "Moves the line sideways, in pixels. Negative moves it left.",
+      "value": "0"
+    },
+    {
+      "key": "offsetY",
+      "label": "Nudge up or down",
+      "help": "Moves the line down, in pixels. Negative moves it up.",
+      "value": "0"
+    }
+  ],
+  "navigation": []
+}
